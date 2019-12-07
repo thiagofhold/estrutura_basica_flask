@@ -1,0 +1,43 @@
+$ cd Desktop/;mkdir projeto_flask;cd projeto_flask;
+
+>>CRIAR REPOSITÓRIO NO GITHUB
+
+
+//$ git clone https://github.com/thiagofhold/estrutura_basica_flask
+
+$git clone [URL_DO_SEU_PROJETO]
+
+$ mkdir templates;mkdir static
+
+$ pip install virtualenv
+
+$ virtualenv pjt_flask
+
+//MAC/LINUX
+$ cd pjt_flask/bin;source activate;cd ..;cd ..
+
+//WINDOWS
+$ cd pjt_flask\Scripts\activate
+
+
+
+$ pip install flask
+$ pip install gunicorn
+
+
+
+CRIAR AS PÁGINAS HTML DENTRO DA PASTA TEMPLATES
+CRIAR O ARQUIVO main.py
+
+
+
+criar arquivo .gitignore com o conteudo: pjt_flask
+criar arquivo Procfile com o conteudo: web: gunicorn main:app
+
+$ git init
+$ git add .
+$ git commit -m "Primeiro commit"
+$ git push
+
+
+
