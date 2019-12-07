@@ -35,10 +35,13 @@ CRIAR O ARQUIVO main.py
 criar arquivo .gitignore com o conteudo: pjt_flask
 criar arquivo Procfile com o conteudo: web: gunicorn main:app
 
+$ pip freeze > requirements.txt
 $ git init
 $ git add .
 $ git commit -m "Primeiro commit"
 $ git push
 
-
+>CRIAR CONTA NA HEROKU
+>VINCULAR PROJETO NO GITHUB
+>CONFIGURAR O DEPLOY AUTOMATICO
   
